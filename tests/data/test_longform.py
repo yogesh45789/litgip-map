@@ -1,7 +1,7 @@
 # Copyright Lightning AI. Licensed under the Apache License 2.0, see LICENSE file.
 from litgpt.data import LongForm
 from litgpt.prompts import Longform as LongFormPromptStyle
-
+# Copyright Lightning AI. Licensed under the Apache License 2.0, see LICENSE file.
 
 def test_longform(mock_tokenizer, longform_path):
     alpaca = LongForm(download_dir=longform_path, num_workers=0)
@@ -12,7 +12,7 @@ def test_longform(mock_tokenizer, longform_path):
 
     train_dataloader = alpaca.train_dataloader()
     val_dataloader = alpaca.val_dataloader()
-
+# Copyright Lightning AI. Licensed under the Apache License 2.0, see LICENSE file.
     assert len(train_dataloader) == 9
     assert len(val_dataloader) == 5
 
