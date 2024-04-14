@@ -1,6 +1,6 @@
 # Copyright Lightning AI. Licensed under the Apache License 2.0, see LICENSE file.
 from unittest import mock
-
+# Copyright Lightning AI. Licensed under the Apache License 2.0, see LICENSE file.
 from litgpt.data import Deita, SFTDataset
 from litgpt.data.deita import format_dataset
 from litgpt.prompts import Alpaca as AlpacaPromptStyle
